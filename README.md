@@ -1,1 +1,1 @@
-This file represent my professional page.
+This file represent my professional page built in Javascript.

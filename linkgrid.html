@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Master</title>
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
+</head><script type="text/javascript">
+  $("a.soon").click(function (event) {
+            event.preventDefault();
+            var link = $(this)
+            link.fadeOut(200, function () {
+                link.html("Coming soon...")
+                link.css("color", "#999999")
+                link.fadeIn(200)
+            })
+
+        });
+</script>
+<body>
+  <div class="container">
+  <div class="zone green"><a target="_blanc" href="https://gateguard.co/index.html"> 🐲<p>Gate Guard</p></a></div>
+  <div class="zone red"><a target="_blanc" href="http://staventglobal.com">🐰<p>Stavent Global<br><small>Website developed for an idae nuturing company</small></p></a></div>
+  <div class="zone blue"><a target="_blanc" href="http://ivrform.epizy.com/landing.php">🐸<p>IVR Dashboard<br><small>login details:<br> username: odada pass:12345<br> Perfromance table:1820</small></p></a></div>
+  <div class="zone yellow"><a target="_blanc" href="http://ivrform.epizy.com/icform.php">🐼<p>IVR Form</p></a></div>
+  <div class="zone purple"><a target="_blanc" href="https://gateguard.co/index.html">🐯<p>Gate Guard<br><small>HNG Internship project</small></p></a></div>
+  <div class="zone brown"><a target="_blanc" href="https://afreekamode.github.io/deimos-net-worth-web-app/">🐭<p>Networth Calculator</p></a></div>
+  <div class="zone green"><a target="_blanc" href="">🐸<p>COC Dashboard<br><small>login details:<br> username: ade@mail.com pass:abimbola</small></p></a></div>
+  <div class="zone red"><a target="_blanc" href="">🐲<p>COC Form</p></a></div>
+  <div class="zone blue"><a target="_blanc" href="" class="soon">🐷</a><p>Plugin<br><small>Social platform:<br> create account to login</small></p></div>
+  <div class="zone yellow"><a target="_blanc" href="">🐺</a><p>Plugin Admin Dashboard<br><small>login details:<br> username: ade@mail.com pass:abimbola</small></p></div>
+  <div class="zone purple"><a target="_blanc" href="">🐼<p>e-Buy<br><small>Ecommerce platform</small></p></a></div>
+  <div class="zone brown"><a target="_blanc" href="">🐻<p>e-Buy Admin Panel<br><small>login details:<br> username: ade@mail.com pass:abimbola</small></p></a></div>
+  </div>
+</body>
+</html> 
